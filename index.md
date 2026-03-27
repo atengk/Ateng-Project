@@ -14,7 +14,7 @@ hero:
       link: /yudao-boot/
     - theme: alt
       text: 🌟 GitHub
-      link: https://atengk.github.io/project
+      link: https://github.com/atengk/Ateng-Project
 
 features:
   - title: 🧱 Yudao Boot（单体版）
