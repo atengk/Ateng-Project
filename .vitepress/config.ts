@@ -109,6 +109,7 @@ export default defineConfig({
         lastUpdated: {
             text: '🕒 最后更新',
             formatOptions: {
+                // @ts-ignore
                 dateStyle: 'medium',
                 timeStyle: 'short'
             }
