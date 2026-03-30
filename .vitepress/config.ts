@@ -169,5 +169,7 @@ export default defineConfig({
         image: {
             lazyLoading: true // 基于浏览器原生懒加载
         }
-    }
+    },
+    // 死链处理策略
+    ignoreDeadLinks: true,
 })
