@@ -12,9 +12,15 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: '首页', link: '/'},
-            {text: 'yudao-boot', link: '/yudao-boot/'},
-            {text: 'yudao-cloud', link: '/yudao-cloud/'},
-            {text: 'yudao-ui', link: '/yudao-ui-admin-vue3/'},
+            {
+                text: 'RuoYi-Plus',
+                items: [
+                    {text: 'RuoYi-Vue-Plus', link: '/ruoyi-vue-plus/'},
+                    {text: 'RuoYi-Cloud-Plus', link: '/ruoyi-cloud-plus/'},
+                    {text: 'RuoYi-Plus-UI', link: '/ruoyi-plus-ui/'},
+                    {text: 'RuoYi-Plus-UI-Vben5', link: '/ruoyi-plus-ui-vben5/'},
+                ]
+            },
             {
                 text: '关于',
                 items: [
@@ -28,27 +34,41 @@ export default defineConfig({
         ],
 
         sidebar: {
-            '/yudao-boot/': [
+            '/ruoyi-vue-plus/': [
                 {
-                    text: '开始使用',
+                    text: 'RuoYi-Vue-Plus',
                     collapsed: false,
                     items: [
-                        {text: '基础配置', link: '/yudao-boot/basic/'},
-                        {text: '基础配置', link: '/yudao-boot/basic2/'},
+                        {text: '快速开始', link: '/ruoyi-vue-plus/quick-start/'},
                     ]
                 },
+            ],
+            '/ruoyi-cloud-plus/': [
                 {
-                    text: '开始使用2',
+                    text: 'RuoYi-Cloud-Plus',
                     collapsed: false,
                     items: [
-                        {text: '基础配置', link: '/yudao-boot/basic3/'},
-                        {text: '基础配置', link: '/yudao-boot/basic4/'},
+                        {text: '快速开始', link: '/ruoyi-cloud-plus/quick-start/'},
                     ]
-                }
+                },
             ],
-            '/yudao-cloud/': [
+            '/ruoyi-plus-ui/': [
+                {
+                    text: 'RuoYi-Plus-UI',
+                    collapsed: false,
+                    items: [
+                        {text: '快速开始', link: '/ruoyi-plus-ui/quick-start/'},
+                    ]
+                },
             ],
-            '/yudao-ui-admin-vue3/': [
+            '/ruoyi-plus-ui-vben5/': [
+                {
+                    text: 'RuoYi-Plus-UI-Vben5',
+                    collapsed: false,
+                    items: [
+                        {text: '快速开始', link: '/ruoyi-plus-ui-vben5/quick-start/'},
+                    ]
+                },
             ],
         },
 
