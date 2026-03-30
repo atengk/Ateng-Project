@@ -145,6 +145,9 @@ export default defineConfig({
         ['link', {rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg'}]
     ],
     markdown: {
-        lineNumbers: true
+        lineNumbers: true,
+        image: {
+            lazyLoading: true // 基于浏览器原生懒加载
+        }
     }
 })
