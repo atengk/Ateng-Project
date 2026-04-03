@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "工程化框架技术网站"
   text: "Ateng Project Docs"
-  tagline: 🚀 工程化 · 架构设计 · 企业级解决方案
+  tagline: ⚙️ 工程化 · 架构设计 · 企业级解决方案
   image:
     src: /hero.svg
     alt: 技术图
