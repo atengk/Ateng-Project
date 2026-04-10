@@ -19,6 +19,7 @@ export default defineConfig({
                     {text: 'RuoYi-Cloud-Plus', link: '/ruoyi-cloud-plus/'},
                     {text: 'RuoYi-Plus-UI', link: '/ruoyi-plus-ui/'},
                     {text: 'RuoYi-Plus-UI-Vben5', link: '/ruoyi-plus-ui-vben5/'},
+                    {text: 'RuoYi-Plus-UI-Soybean', link: '/ruoyi-plus-ui-soybean/'},
                 ]
             },
             {
@@ -67,6 +68,15 @@ export default defineConfig({
                     collapsed: false,
                     items: [
                         {text: '快速开始', link: '/ruoyi-plus-ui-vben5/quick-start/'},
+                    ]
+                },
+            ],
+            '/ruoyi-plus-ui-soybean/': [
+                {
+                    text: 'RuoYi-Plus-UI-Soybean',
+                    collapsed: false,
+                    items: [
+                        {text: '快速开始', link: '/ruoyi-plus-ui-soybean/quick-start/'},
                     ]
                 },
             ],
